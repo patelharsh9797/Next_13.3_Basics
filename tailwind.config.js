@@ -10,12 +10,15 @@ module.exports = {
   ],
   theme: {
     container: {
+      padding: {
+        DEFAULT: "1rem",
+      },
       center: true,
     },
     extend: {
       container: {},
       gridTemplateColumns: {
-        fluid: "repeat(auto-fill,minmax(30rem,1fr))",
+        fluid: "repeat(auto-fill,minmax(25rem,1fr))",
       },
     },
   },

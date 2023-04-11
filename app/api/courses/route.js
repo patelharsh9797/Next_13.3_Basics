@@ -1,7 +1,21 @@
 import { NextResponse } from "next/server";
-import data from "./data.json";
+import courses from "./data.json";
+import { nanoid } from "nanoid";
 
 export async function GET(request) {
-  console.log(data)
-  return NextResponse.json(data);
+  return NextResponse.json(courses);
+}
+
+export async function POST(request) {
+  const { title, description, level, link } = await request.json();
+
+  courses.push({
+    id: nanoid(),
+    title,
+    description,
+    level,
+    link,
+  });
+
+  return NextResponse.json(courses);
 }
