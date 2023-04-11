@@ -1,5 +1,5 @@
 async function fetchCourse() {
-  const res = await fetch("https://localhost:3000/api/course");
+  const res = await fetch("http://localhost:3000/api/courses");
   const data = await res.json();
   return data;
 }
