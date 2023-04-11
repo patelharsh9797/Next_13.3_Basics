@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Title 1",
+        "description": "lorem ipsum dolor sit amet, consectetur adip",
+        "level": "Beginner"
+    },
+    {
+        "id": 2,
+        "title": "Title 2",
+        "description": "lorem ipsum dolor sit amet, consectetur adip",
+        "level": "Beginner"
+    },
+    {
+        "id": 3,
+        "title": "Title 3",
+        "description": "lorem ipsum dolor sit amet, consectetur adip",
+        "level": "Beginner"
+    },
+    {
+        "id": 4,
+        "title": "Title 4",
+        "description": "lorem ipsum dolor sit amet, consectetur adip",
+        "level": "Beginner"
+    },
+    {
+        "id": 5,
+        "title": "Title 5",
+        "description": "lorem ipsum dolor sit amet, consectetur adip",
+        "level": "Beginner"
+    }
+]

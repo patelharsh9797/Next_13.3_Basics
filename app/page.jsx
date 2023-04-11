@@ -1,21 +1,10 @@
-import Link from "next/link";
+import Courses from "./components/Courses";
 
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
-    
-      <ul>
-        <li>
-          <Link href={"/"}>Home</Link>
-        </li>
-        <li>
-          <Link href={"/about"}>About</Link>
-        </li>
-        <li>
-          <Link href={"/about/team"}>Team</Link>
-        </li>
-      </ul>
+      <h1 className="text-2xl font-bold">Home</h1>
+      <Courses />
     </div>
   );
 };
