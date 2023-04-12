@@ -15,7 +15,7 @@ const Courses = ({ courses }) => {
           <Link
             href={course?.link}
             target="_blank"
-            classname="mt-4 bg-indigo-600 text-white text-sm leading-6 font-medium py-2 px-3 rounded-lg"
+            className="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4  rounded"
           >
             Go To Course
           </Link>

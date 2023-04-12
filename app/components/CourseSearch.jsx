@@ -15,13 +15,16 @@ const CourseSearch = ({ getSearchResults }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="mt-5 w-full flex gap-4">
+    <form
+      onSubmit={handleSubmit}
+      className="mt-5 w-full flex flex-wrap items-center justify-center gap-4"
+    >
       <input
         type="text"
         placeholder="Search course..."
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        className="w-full px-4 rounded"
+        className="w-full md:flex-1 py-2 px-4 rounded"
       />
 
       <button type="submit" className="bg-blue-500 p-2 rounded">

@@ -24,12 +24,7 @@ const RepoDir = async ({ name }) => {
         {dirs.length > 0 ? (
           dirs.map((dir) => (
             <li>
-              <Link
-                href={`/code/repos/${name}/${dir.path}`}
-                className="underline"
-              >
-                {dir.name}
-              </Link>
+              <span className="">{dir.name}</span>
             </li>
           ))
         ) : (
